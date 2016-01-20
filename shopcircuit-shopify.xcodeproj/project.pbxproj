@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FB322A7235DA62F34A100E5 /* libPods-shopcircuit-shopify.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4649D66546DDD3124F93939 /* libPods-shopcircuit-shopify.a */; };
+		F79AE5061C4F126F0046ACB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F79AE5051C4F126F0046ACB1 /* main.m */; };
+		F79AE5091C4F126F0046ACB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F79AE5081C4F126F0046ACB1 /* AppDelegate.m */; };
+		F79AE50C1C4F126F0046ACB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F79AE50B1C4F126F0046ACB1 /* ViewController.m */; };
+		F79AE50F1C4F126F0046ACB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F79AE50D1C4F126F0046ACB1 /* Main.storyboard */; };
+		F79AE5111C4F126F0046ACB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F79AE5101C4F126F0046ACB1 /* Assets.xcassets */; };
+		F79AE5141C4F126F0046ACB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F79AE5121C4F126F0046ACB1 /* LaunchScreen.storyboard */; };
+		F79AE51D1C4F12D10046ACB1 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = F79AE51C1C4F12D10046ACB1 /* Product.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5172315A54BF4A0F74C1AA6F /* Pods-shopcircuit-shopify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shopcircuit-shopify.release.xcconfig"; path = "Pods/Target Support Files/Pods-shopcircuit-shopify/Pods-shopcircuit-shopify.release.xcconfig"; sourceTree = "<group>"; };
+		A4649D66546DDD3124F93939 /* libPods-shopcircuit-shopify.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-shopcircuit-shopify.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC52F595CA34F12416406815 /* Pods-shopcircuit-shopify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shopcircuit-shopify.debug.xcconfig"; path = "Pods/Target Support Files/Pods-shopcircuit-shopify/Pods-shopcircuit-shopify.debug.xcconfig"; sourceTree = "<group>"; };
+		F79AE5011C4F126F0046ACB1 /* shopcircuit-shopify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "shopcircuit-shopify.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F79AE5051C4F126F0046ACB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F79AE5071C4F126F0046ACB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F79AE5081C4F126F0046ACB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F79AE50A1C4F126F0046ACB1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F79AE50B1C4F126F0046ACB1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F79AE50E1C4F126F0046ACB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F79AE5101C4F126F0046ACB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F79AE5131C4F126F0046ACB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F79AE5151C4F126F0046ACB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F79AE51B1C4F12D10046ACB1 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		F79AE51C1C4F12D10046ACB1 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F79AE4FE1C4F126F0046ACB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FB322A7235DA62F34A100E5 /* libPods-shopcircuit-shopify.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55BBBD6C99EEF90F1CCDAF24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC52F595CA34F12416406815 /* Pods-shopcircuit-shopify.debug.xcconfig */,
+				5172315A54BF4A0F74C1AA6F /* Pods-shopcircuit-shopify.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5D8E761F9B3C0983BB1B77CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4649D66546DDD3124F93939 /* libPods-shopcircuit-shopify.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F79AE4F81C4F126F0046ACB1 = {
+			isa = PBXGroup;
+			children = (
+				F79AE5031C4F126F0046ACB1 /* shopcircuit-shopify */,
+				F79AE5021C4F126F0046ACB1 /* Products */,
+				55BBBD6C99EEF90F1CCDAF24 /* Pods */,
+				5D8E761F9B3C0983BB1B77CA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F79AE5021C4F126F0046ACB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F79AE5011C4F126F0046ACB1 /* shopcircuit-shopify.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F79AE5031C4F126F0046ACB1 /* shopcircuit-shopify */ = {
+			isa = PBXGroup;
+			children = (
+				F79AE5071C4F126F0046ACB1 /* AppDelegate.h */,
+				F79AE5081C4F126F0046ACB1 /* AppDelegate.m */,
+				F79AE50A1C4F126F0046ACB1 /* ViewController.h */,
+				F79AE50B1C4F126F0046ACB1 /* ViewController.m */,
+				F79AE51B1C4F12D10046ACB1 /* Product.h */,
+				F79AE51C1C4F12D10046ACB1 /* Product.m */,
+				F79AE50D1C4F126F0046ACB1 /* Main.storyboard */,
+				F79AE5101C4F126F0046ACB1 /* Assets.xcassets */,
+				F79AE5121C4F126F0046ACB1 /* LaunchScreen.storyboard */,
+				F79AE5151C4F126F0046ACB1 /* Info.plist */,
+				F79AE5041C4F126F0046ACB1 /* Supporting Files */,
+			);
+			path = "shopcircuit-shopify";
+			sourceTree = "<group>";
+		};
+		F79AE5041C4F126F0046ACB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F79AE5051C4F126F0046ACB1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F79AE5001C4F126F0046ACB1 /* shopcircuit-shopify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F79AE5181C4F126F0046ACB1 /* Build configuration list for PBXNativeTarget "shopcircuit-shopify" */;
+			buildPhases = (
+				91C5D806471AA336D4F74186 /* Check Pods Manifest.lock */,
+				F79AE4FD1C4F126F0046ACB1 /* Sources */,
+				F79AE4FE1C4F126F0046ACB1 /* Frameworks */,
+				F79AE4FF1C4F126F0046ACB1 /* Resources */,
+				21FEBB47C0319968A0CEC45B /* Embed Pods Frameworks */,
+				66DE4FEC94CD5316F57C3D8E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "shopcircuit-shopify";
+			productName = "shopcircuit-shopify";
+			productReference = F79AE5011C4F126F0046ACB1 /* shopcircuit-shopify.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F79AE4F91C4F126F0046ACB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Nolan Dey";
+				TargetAttributes = {
+					F79AE5001C4F126F0046ACB1 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 7MK3VY76N4;
+					};
+				};
+			};
+			buildConfigurationList = F79AE4FC1C4F126F0046ACB1 /* Build configuration list for PBXProject "shopcircuit-shopify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F79AE4F81C4F126F0046ACB1;
+			productRefGroup = F79AE5021C4F126F0046ACB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F79AE5001C4F126F0046ACB1 /* shopcircuit-shopify */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F79AE4FF1C4F126F0046ACB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F79AE5141C4F126F0046ACB1 /* LaunchScreen.storyboard in Resources */,
+				F79AE5111C4F126F0046ACB1 /* Assets.xcassets in Resources */,
+				F79AE50F1C4F126F0046ACB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21FEBB47C0319968A0CEC45B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-shopcircuit-shopify/Pods-shopcircuit-shopify-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66DE4FEC94CD5316F57C3D8E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-shopcircuit-shopify/Pods-shopcircuit-shopify-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91C5D806471AA336D4F74186 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F79AE4FD1C4F126F0046ACB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F79AE50C1C4F126F0046ACB1 /* ViewController.m in Sources */,
+				F79AE51D1C4F12D10046ACB1 /* Product.m in Sources */,
+				F79AE5091C4F126F0046ACB1 /* AppDelegate.m in Sources */,
+				F79AE5061C4F126F0046ACB1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F79AE50D1C4F126F0046ACB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F79AE50E1C4F126F0046ACB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F79AE5121C4F126F0046ACB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F79AE5131C4F126F0046ACB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F79AE5161C4F126F0046ACB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F79AE5171C4F126F0046ACB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F79AE5191C4F126F0046ACB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC52F595CA34F12416406815 /* Pods-shopcircuit-shopify.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "shopcircuit-shopify/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.shopcircuit-shopify";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F79AE51A1C4F126F0046ACB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5172315A54BF4A0F74C1AA6F /* Pods-shopcircuit-shopify.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "shopcircuit-shopify/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.shopcircuit-shopify";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F79AE4FC1C4F126F0046ACB1 /* Build configuration list for PBXProject "shopcircuit-shopify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F79AE5161C4F126F0046ACB1 /* Debug */,
+				F79AE5171C4F126F0046ACB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F79AE5181C4F126F0046ACB1 /* Build configuration list for PBXNativeTarget "shopcircuit-shopify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F79AE5191C4F126F0046ACB1 /* Debug */,
+				F79AE51A1C4F126F0046ACB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F79AE4F91C4F126F0046ACB1 /* Project object */;
+}
